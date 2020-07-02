@@ -1,3 +1,6 @@
+//Seminar > Discrete_Optimization > graph_coloring.cppの練習
+////ベクトルの初期化
+////ラムダ式の書き方
 #include <bits/stdc++.h>
 using namespace std;
 
