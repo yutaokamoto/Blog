@@ -13,12 +13,19 @@ struct human_with_constructor{
     int height;
     int weight;
     // メンバ関数
-    human_with_constructor(string name_init, int height_init, int weight_init){
-        cout << "Constructor is called." << endl;
+    //// コンストラクタ1
+    human_with_constructor(string name_, int height_, int weight_){
+        cout << "1st constructor is called." << endl;
         // メンバ変数へ直接アクセスできる
-        name = name_init;
-        height = height_init;
-        weight = weight_init;
+        name = name_;
+        height = height_;
+        weight = weight_;
+    }
+    //// コンストラクタ2 (コンストラクタはいくつも定義することができ、与える引数の型や数の違いによって呼び分けられる)
+    human_with_constructor(int height_, int weight_){
+        cout << "2nd constructor  is called." << endl;
+        height = height_;
+        weight = weight_;
     }
 };
 
@@ -34,5 +41,12 @@ int main(){
     // 今度はコンストラクタ付きの構造体の変数を生成する
     human_with_constructor okamoto("Okamoto", 173, 80);
     cout << okamoto.name << endl;
+
+    human_with_constructor aikawa(180, 75);
+    cout << aikawa.height << endl;
+
+    //// 以下のように初期化することもできる
+    human_with_constructor game = {"TheGame", 180, 80};
+    cout << game.name << endl;
     return 0;
 }
