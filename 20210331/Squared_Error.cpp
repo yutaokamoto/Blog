@@ -16,8 +16,11 @@ int main(){
 	}
 	cout << "工夫してない方の答えは、" << ans << endl;*/
 
-	long long sum = 0;
-	long long sub_sum = accumulate(A.begin(), A.end(), 0);
+	long long int sum = 0;
+	long long int sub_sum = accumulate(A.begin(), A.end(), 0);
+	/*for(int i=0; i<A.size(); i++){
+		sub_sum += A.at(i);
+	}*/
 	for(int i=0; i<N; i++){
 		sub_sum -= A.at(i);
 		sum += (N-1)*pow(A.at(i), 2) - 2*A.at(i)*sub_sum;
