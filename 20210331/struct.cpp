@@ -53,7 +53,7 @@ struct human_with_operatoroverload{
     // 演算子オーバーロード
     // 返り値 関数名(引数){}のように書く
     human_with_operatoroverload operator+(const human_with_operatoroverload &other){
-        cout << "+ Operator is called!" << endl;
+        cout << "+ operator is called!" << endl;
         human_with_operatoroverload me;
         me.name = name + other.name;
         me.height = height + other.height;
@@ -61,7 +61,7 @@ struct human_with_operatoroverload{
         return me;
     }
     void operator=(const human_with_operatoroverload &other){
-        cout << "= Operator is called!" << endl;
+        cout << "= operator is called!" << endl;
         name = other.name;
         height = other.height;
         weight = other.weight;
