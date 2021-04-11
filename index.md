@@ -1,4 +1,4 @@
-# 日付
+# バックナンバー
 - [20190907　"Hello C++"](https://yutaokamoto.github.io/Blog/20190907)
 <!--(https://github.com/yutaokamoto/Blog/tree/master/20190907)-->
 
