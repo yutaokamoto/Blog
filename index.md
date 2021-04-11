@@ -2,9 +2,10 @@
 - [20190907　"Hello C++"](https://yutaokamoto.github.io/Blog/20190907)
 <!--(https://github.com/yutaokamoto/Blog/tree/master/20190907)-->
 
-- [20190908 比較演算子・インクリメントとデクリメント](https://github.com/yutaokamoto/Blog/tree/master/20190908)
+- [20190908 比較演算子・インクリメントとデクリメント](https://yutaokamoto.github.io/Blog/20190908)
 
-- [20190910 sizeof演算子](https://github.com/yutaokamoto/Blog/tree/master/20190910)
+- [20190910 sizeof演算子](https://yutaokamoto.github.io/Blog/20190910)
+<!--(https://github.com/yutaokamoto/Blog/tree/master/20190910)-->
 
 - [20190911 繰り返し文・型変換](https://github.com/yutaokamoto/Blog/tree/master/20190911)
 
