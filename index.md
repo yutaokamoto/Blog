@@ -1,7 +1,6 @@
-# 勉強したことをまとめていくよ
-
 # 日付
-- [20190907　"Hello C++"](https://github.com/yutaokamoto/Blog/tree/master/20190907)
+- [20190907　"Hello C++"](https://yutaokamoto.github.io/Blog/20190907)
+<!--(https://github.com/yutaokamoto/Blog/tree/master/20190907)-->
 
 - [20190908 比較演算子・インクリメントとデクリメント](https://github.com/yutaokamoto/Blog/tree/master/20190908)
 
