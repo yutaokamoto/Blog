@@ -1,6 +1,5 @@
 # バックナンバー
 - [20190907　"Hello C++"](https://yutaokamoto.github.io/Blog/20190907)
-<!--(https://yutaokamoto.github.io/Blog/20190907)-->
 
 - [20190908 比較演算子・インクリメントとデクリメント](https://yutaokamoto.github.io/Blog/20190908)
 
