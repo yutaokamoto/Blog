@@ -20,6 +20,13 @@ struct Point{
 	}
 };
 
+// 定数のテンプレート
+// テンプレート引数には、型名の他に整数も指定できる (参考 : https://qiita.com/amowwee/items/dd9d75d56af2562dcbbd)
+template <int INDEX1, int INDEX2>
+void tuple_swap(tuple<int, int, int> &t){
+	swap(get<INDEX1>(t), get<INDEX2>(t));
+}
+
 int main(){
 	// テンプレート関数
 	int a = 10;
@@ -37,6 +44,14 @@ int main(){
 	//// 関数テンプレートと異なり、テンプレート引数を省略することはできない
 	Point<int> p1 = {0, 2};
 	p1.print();
+
+	// 定数のテンプレート
+	tuple<int, int, int> t = make_tuple(0,1,2);
+	tuple_swap<0, 1>(t);
+	cout << "(" << get<0>(t) << "," << get<1>(t) << "," << get<2>(t) << ")" << endl;
+	tuple_swap<0, 1>(t);
+	tuple_swap<0, 2>(t);
+	cout << "(" << get<0>(t) << "," << get<1>(t) << "," << get<2>(t) << ")" << endl;
 
 	return 0;
 }
