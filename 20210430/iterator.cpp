@@ -17,5 +17,10 @@ int main(){
 	for(auto i=vec.begin(); i!=vec.end(); i++){
 		cout << *i << endl;
 	}
+
+	vec = {0,1,2,3,4};
+	auto iter = find_if(vec.begin(), vec.end(), [](int i){return i%2==0;});
+	if(iter==vec.end()){cout << "Not find." << endl;}
+	else{cout << "vecの要素の中で、2で割り切れるものは" << *iter << endl;}
 	return 0;
 }
