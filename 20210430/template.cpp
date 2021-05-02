@@ -21,7 +21,7 @@ struct Point{
 };
 
 // 定数のテンプレート
-// テンプレート引数には、型名の他に整数も指定できる (参考 : https://qiita.com/amowwee/items/dd9d75d56af2562dcbbd)
+// テンプレート引数には、型名の他に整数型の定数も指定できる (参考 : https://qiita.com/amowwee/items/dd9d75d56af2562dcbbd)
 template <int INDEX1, int INDEX2>
 void tuple_swap(tuple<int, int, int> &t){
 	swap(get<INDEX1>(t), get<INDEX2>(t));
